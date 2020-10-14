@@ -1,0 +1,44 @@
+header{
+    width: 100%;
+    height: 650px;
+    background-image: url("https://images.unsplash.com/photo-1517683551739-7f3f08efba84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.textos{
+    margin-top: 20px;
+}
+.titulo{
+    font-size: 50px;
+    color: #491494 ;
+}
+.subtitulo{
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+.contenedor{
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    color:#FDFDFD ;
+    background-image: url("https://images.unsplash.com/photo-1596726648434-e6d14dd3f21d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80");
+}
+.Carlos{
+    float: right;
+}
+.Manuel{
+    float: left;
+}
+.Daniela{
+    float: center;
+}
+.boton{
+    font-size: 35px;
+}
