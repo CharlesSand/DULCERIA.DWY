@@ -19,7 +19,7 @@ header{
     -webkit-text-stroke:2px ;
 }
 .subtitulo{
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 300;
     margin-bottom: 32px;
 }
@@ -41,10 +41,9 @@ header{
 .Daniela{
     float: center;
 }
-.boton{
-    font-size: 40px;
-}
 .Name{
-    -webkit-text-stroke:1px;
-    
+    -webkit-text-stroke:1px; 
+}
+.Mostrar{
+    margin-top: 250px;
 }
