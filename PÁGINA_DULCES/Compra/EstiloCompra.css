@@ -37,3 +37,10 @@ body{
 .salir{
     margin-left: 30cm;
 }
+.carrito{
+    margin-left: 40px;
+    margin-top: 20px
+}
+.textocarrito{
+    font-size: 20px;
+}
