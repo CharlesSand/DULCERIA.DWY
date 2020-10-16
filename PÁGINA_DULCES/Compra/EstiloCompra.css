@@ -24,11 +24,15 @@ body{
     font-weight: bold;
     text-decoration: underline;
     font-size: 20px;
-    
 }
 .boton{
     margin-left: 100px;
     font-size: 50px;
+}
+.metodo{
+    margin-left: 1133px;
+    font-size: 50px;
+    
 }
 .salir{
     margin-left: 30cm;
