@@ -1,0 +1,35 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+ /*   background-size: 1200px; */
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo{
+    font-size: 70px;
+    color: rgb(211, 2, 176);
+}
+.sección{
+    font-size: 40px;
+    color: rgb(235, 34, 34);
+    margin-left: 70px;
+}
+.elegir{
+    color: rgb(122, 29, 115);
+    margin-left: 70px;
+}
+.agregar{
+    color: rgb(21, 0, 80);
+    margin-left: 100px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+    
+}
+.boton{
+    margin-left: 100px;
+    font-size: 50px;
+}
+.salir{
+    margin-left: 30cm;
+}
