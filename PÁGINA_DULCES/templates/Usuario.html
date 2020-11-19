@@ -15,6 +15,7 @@
 
         </head>
 <body>
+    <form name="form1" method="post" action="/mantenedor">
     <header>
     <div>
         <center class="titulo" >Sugar paradise</center>
@@ -33,11 +34,11 @@
         width="400" height="300">
         
         <div class="agregar">
-        Nombre=<input type="text" id="donas1"><br>
-        Rut=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="total"><br>
-        ID=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="total1"><br>
+        Nombre=<input type="text" name="txtNombre" id="Nombre"><br>
+        Rut=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="txtRut" id="Rut"><br>
+        ID=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="txtId" id="Id"><br>
         </div>
-            <a class="agregar" href="#"><button type="button" class="btn btn-dark">Agregar</button></a>
+            <a class="agregar" href="#"><button type="submit" name="btnGuardar" value="Guardar" class="btn btn-dark">Agregar</button></a>
         </div>
 
     </div>
@@ -48,5 +49,6 @@
 
 </main>
 </header>
+</form>
 </body>
 </html>
