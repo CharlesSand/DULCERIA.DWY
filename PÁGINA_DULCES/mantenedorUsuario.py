@@ -18,7 +18,7 @@ def insertar(cliente):
     conexion = conectar()
     try:
         with conexion.cursor() as cursor:
-            consulta = "INSERT INTO usuario(ID,Nombre,RUt) VALUES (%s,%s,%s);"
+            consulta = "INSERT INTO usuario(ID,Nombre,RUT) VALUES (%s,%s,%s);"
             #Podemos llamar a execute varias veces con datos diferentes
             cursor.execute(consulta,(cliente.id,cliente.nombre,cliente.rut))
         conexion.commit()
